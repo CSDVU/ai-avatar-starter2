@@ -113,11 +113,11 @@ const sleep = (ms) => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>AI picture generator</h1>
+            <h1>Colors pictures generator</h1>
           </div>
           <div className="header-subtitle">
             <h2>
-              Turn me into anyone you want! Make sure you refer to me as "younggracekelly" in the prompt
+             Enter the name of your favorite color
             </h2>
           </div>
           {/* Add prompt container here */}
@@ -152,16 +152,12 @@ const sleep = (ms) => {
         )}
       </div>
       <div className="badge-container grow">
-        <a
-          href="https://buildspace.so/builds/ai-avatar"
-          target="_blank"
-          rel="noreferrer"
-        >
+     
           <div className="badge">
             <Image src={buildspaceLogo} alt="buildspace logo" />
             <p>build with buildspace</p>
           </div>
-        </a>
+       
       </div>
     </div>
   );
