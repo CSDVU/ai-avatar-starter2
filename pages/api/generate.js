@@ -14,7 +14,7 @@ const generateAction = async (req, res) => {
 
   // Add fetch request to Hugging Face
   const response = await fetch(
-    `https://api-inference.huggingface.co/models/magenkalo/medikuschka`,
+    `https://api-inference.huggingface.co/models/magenkalo/laluschka`,
     {
       headers: {
         Authorization: `Bearer ${key}`,
