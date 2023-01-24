@@ -108,12 +108,12 @@ const sleep = (ms) => {
   return (
     <div className="root">
       <Head>
-        <title>AI picture generator | buildspace</title>
+        <title>Color picture generator</title>
       </Head>
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Colors pictures generator</h1>
+            <h1>Color picture generator</h1>
           </div>
           <div className="header-subtitle">
             <h2>
